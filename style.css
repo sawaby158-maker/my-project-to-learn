@@ -1,1 +1,64 @@
-
+/* styles for card-body */
+.card-body {
+  line-height: 7px;
+  position: relative;
+}
+.card{
+  transition: all 0.3s linear;
+}
+.card:hover{
+  scale: 1.05;
+}
+/* end */
+/* style for buttons before */
+.button-before {
+  outline: red solid 0.5px;
+  border-radius: 20px;
+  background-color: white;
+  position: absolute;
+  bottom: 95px;
+  right: 50%;
+  transform: translateX(50%);
+}
+.button-before:hover {
+  background-color: rgb(214, 211, 211);
+}
+.button-before >p{
+    font-size: x-small;
+}
+/* end */
+/* styles for text */
+button + p {
+  color: rgba(148, 7, 7, 0.4);
+}
+.price {
+  color: red;
+  font-weight: 600;
+}
+/* end */
+/* styles for btn add items */
+.btn-add-itmes{
+  background-color: red;
+  width: 50%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn-add-itmes:hover{
+  background-color: rgb(105, 12, 12);
+}
+/* end */
+.nigative,.plus{
+  width: 30px;
+  height: 20px;
+}
+.confirm-btn{
+  display: none;
+}
+.none{
+  display: none !important;
+}
+.bord{
+  border-bottom: solid 0.5px black;
+}
